@@ -1,0 +1,42 @@
+README for Lab1 solution of CMPS12B.
+
+C. Seshadhri, Sept 2017
+=====================================
+
+Solution files: HelloUser.java, HelloUser2.java, Makefile1, Makefile2, Makefile3, README
+
+=====================================
+
+The aim of this Lab is to learn to use makefiles. The jar files created here are basically
+Hello World programs, with some extra system information printed.
+
+
+Instruction to run solution
+--------------------------------------
+Let $ denote the prompt. 
+
+$ make -f Makefile1
+
+Creates jar HelloUser.jar.
+
+$ java -jar HelloUser.jar
+
+Prints "Hello <username>" followed by system details.
+
+$ make -f Makefile1 clean
+
+Deletes HelloUser class and jar files.
+All the above holds for Makefile2.
+
+$ make -f Makefile3
+
+Creates Hello.jar.
+
+$ java -jar Hello.jar
+
+Prints "Hello <username>"
+
+$ make -f Makefile3 clean
+
+Deletes HelloUser1, HelloUser2 class files and Hello.jar
+

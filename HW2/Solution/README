@@ -1,0 +1,34 @@
+README for HW2 solution of CMPS12B.
+
+C. Seshadhri, Sept 2017
+=====================================
+
+Solution files
+-------------------
+(Class files for chesspieces): ChessPiece.java, Bishop.java, Knight.java, Pawn.java, King.java, Queen.java, Rook.java
+(Other files): Node.java, Utilities.java
+(Main files): ChessBoard.java, Makefile, README
+
+=====================================
+
+Instruction to run solution
+--------------------------------------
+Let $ denote the prompt.
+
+$ make 
+
+Creates ChessBoard.jar
+
+$ java -jar ChessBoard.java <input file> <output file>
+
+Check out ChessBoard.java for documentation on format for input and output
+
+For example:
+
+$ java -jar ChessBoard.jar test-input.txt output.txt
+
+The file output.txt should be identical to test-output.txt.
+
+$ make clean
+
+This removes all jar and class files.

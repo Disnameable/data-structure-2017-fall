@@ -1,0 +1,30 @@
+README for HW1 solution of CMPS12B.
+
+C. Seshadhri, Sept 2017
+=====================================
+
+Solution files: Queen.java, NQueens.java, Makefile, README
+
+=====================================
+
+Instruction to run solution
+--------------------------------------
+Let $ denote the prompt.
+
+$ make 
+
+Creates jar NQueens.jar
+
+$ java -jar NQueens.jar <input file> <output file>
+
+Check out NQueens.java for documentation on format for input and output
+
+For example:
+
+$ java -jar NQueens.jar test-input.txt output.txt
+
+The file output.txt should be identical to test-output.txt.
+
+$ make clean
+
+This removes all jar and class files.

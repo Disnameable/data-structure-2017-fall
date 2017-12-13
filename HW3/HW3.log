@@ -1,0 +1,20 @@
+Checker has failed. Below is the log of the checker
+=============================================
+File Makefile found
+File README found
+File simple-input.txt found
+File simple-output.txt found
+======================================
+All files are present in folder. Good!
+======================================
+make: ran successfully
+Error: Executable ChessMoves.jar is not created by running command make
+FAIL
+==================================================
+Final score:
+0
+
+=========================== 
+Your homework was turned in late. Multiplying your score by 0.9 
+Updated final score 
+0.0

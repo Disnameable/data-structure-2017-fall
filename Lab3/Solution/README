@@ -1,0 +1,28 @@
+README for Lab3 solution of CMPS12B.
+
+C. Seshadhri, Sept 2017
+=====================================
+
+Solution files: fileReverse.c, Makefile, README
+Extra test files to check: gettysburg.txt, gettysburg-reversed.txt
+
+=====================================
+
+Instruction to run solution
+--------------------------------------
+Let $ denote the prompt.
+
+$ make 
+
+Creates executable fileReverse
+
+$ ./fileReverse <in> <out>
+
+(where <in> is input file, and <out> is desired output file)
+The file <out> will have all words in <in> reversed, and on separate lines. 
+
+For example:
+
+$ ./fileReverse gettysburg.txt output.txt
+
+The file output.txt should be identical to gettysburg-reversed.txt.
